@@ -1,0 +1,27 @@
+CLASS 
+|
+|  FILE
+|    |
+|    - - - - - MCDFILE
+|    |
+|    - - - - - CMDFILE
+|    |
+|    - - - - - ELECTROPHI (header stripped)
+|    | 
+|    - - - - - VIDEOFILE
+|    | 
+|    - - - - - RECTANGLEDATA
+|
+|  COMPONENT
+|    |
+|    - - - - GATE
+|    |
+|    - - - - interface ELECTRODE
+|		|
+|		- - - point of interest
+|		|
+|		- - - operations
+|			|
+|			- - directions
+|			|
+|			- - beating factor ???

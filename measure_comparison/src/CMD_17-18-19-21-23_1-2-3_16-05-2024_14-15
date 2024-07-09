@@ -1,0 +1,37 @@
+# Run this file by typing:
+# MC_DataTool -file filename-ascii
+-i "C:/Users/radja/Documents/COURS/RSRC/CARDIO-visualization/data/MC_RACK_MEASURES/LIVE test/MC_TEMP.mcd"
+-o "C:/Users/radja/Documents/COURS/RSRC/CARDIO-visualization/data/LIVE test/OUT_17-18-19-21-23_1-2-3_16-05-2024_14-15"
+
+-s "Filtered Data 1:17"
+
+-s "Filtered Data 1:18"
+
+-s "Filtered Data 1:19"
+
+-s "Filtered Data 1:21"
+
+-s "Filtered Data 1:23"
+
+-s "Filtered Data 2:17"
+
+-s "Filtered Data 2:18"
+
+-s "Filtered Data 2:19"
+
+-s "Filtered Data 2:21"
+
+-s "Filtered Data 2:23"
+
+-s "Filtered Data 3:17"
+
+-s "Filtered Data 3:18"
+
+-s "Filtered Data 3:19"
+
+-s "Filtered Data 3:21"
+
+-s "Filtered Data 3:23"
+
+-BaseIsPressedStart
+-CommentChar \n

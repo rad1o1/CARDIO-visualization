@@ -1,0 +1,13 @@
+*.zip
+*.avi
+/data/tftdevice
+/data/tftdevice2
+/tmita-optical-cardyomyocyte-analysis-1.2.1
+/data/video_data/*
+/data/LIVE\ TEST/*
+/data/bounding_rect_data/*
+/data/MC_RACK_MEASURES/*
+/data/electroPHISIO/*
+/data/cmd/*
+/data/cmd/*/measure_comparison/lib/pyABF-main
+/measure_comparison/lib/pyABF-main

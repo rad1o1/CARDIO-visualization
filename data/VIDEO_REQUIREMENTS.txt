@@ -1,0 +1,5 @@
+This file sums up video / data requirements for an optimal image analysis :
+
+- No changes of lighting
+- No changes in zoom
+- FPS = ??
