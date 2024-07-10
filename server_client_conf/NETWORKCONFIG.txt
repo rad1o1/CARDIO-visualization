@@ -1,0 +1,6 @@
+##########
+###For the moment, A manual configuration is necessary. Server is raspberry and client is any machine which accesses video stream.
+SERVER adress 169.254.235.60
+CLIENT ADDR 169.254.235.59
+MASK 255.255.0.0
+GATEWAY 169.254.0.1
