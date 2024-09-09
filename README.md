@@ -19,11 +19,11 @@ CARDIO-visualization is a data processing framework designed for the spatiotempo
 - Precision handling of multimodal data, including handling mismatched frame rates between electrical and optical measurements.
 
 ## Current Limitations & Areas for Improvement
-### Limitation in trials
+### 1. Limitation in trials
 This current setup is limited in it's quantity of trials and data that actually was exploited. Future measurements could help consolidate the validity of this project.
 
-### 4. Deep Learning for Automated Electrode Tracking
+### 2. Deep Learning for Automated Electrode Tracking
 - **Planned Development:** Integrate deep learning algorithms to automatically track electrodes in real-time, reducing the need for manual annotation and improving accuracy in tracking electrodes over long-term experiments.
 
-### 5. Fluorescent Visual Data Integration
+### 3. Fluorescent Visual Data Integration
 - **Exploration:** Future integration of fluorescent visual data acquisition for ion displacement tracking, providing additional insights into intracellular processes.
