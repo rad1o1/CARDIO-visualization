@@ -1,0 +1,45 @@
+ClockKit (camilleg/clockkit/github)Follow GitHub instructions for install.
+For Ubuntu for WSL on Lab's TOSHIBA laptop. Last working version was Ubuntu 22.04
+
+
+SYNC TEST
+*** To test on localhost, on both laptop or raspi:
+go into folder-> 
+
+$cd Documents/Radja/clockkit/
+$cd ClockKit && make test
+
+----
+SYNCHRO BETWEEN RASPI AND LAPTOP.
+
+*** first command, always do this unless environment was added into .bashrc :
+$export PATH=$PATH:$(pwd)
+
+*** To sync host B to host A: (HOST A will be lab laptop : original IP adress on the LAN network -> 169.254.235.59* - To simplify, we can run using 0.0.0.0 to run on all interfaces)
+chose random port (a random number, really) bigger than 1024 and smaller than 49152. check availability of port before with :
+
+$sudo netstat -tuln | grep <port number>
+
+-> if it shows nothing it is free and you can proceed.
+/!\ Attention, The Windows firewall needs to be off or allowing port communication on that specific port.
+
+*** On host A (should be laptop), when you are in folder ClockKit :
+$ckserver <IP address to bind to> <port>
+
+An example (TO USE unless you are sure of what you are doing):
+ckserver 0.0.0.0 4567
+
+/!\ Packet forwarding configurations are done for port 4567. Please use this port value.
+
+
+On host B (raspberry.):
+
+***(((( ONLY DO THIS If you are restarting the sync and know what you are doing. Otherwise, configuration was done )))) ///
+cp clockkit.conf my-clockkit.conf
+Edit my-clockkit.conf. Set the server to host A, e.g., 192.168.1.1 or myhost.example.com. Set the port to 4567, or whatever port you told ckserver to use.
+\\\
+
+***Start :
+$./ckphaselock my-clockkit.conf
+
+if an ssh connection is suggested, it should be automatically configurated to BioTFT-admin@169.254.235.59. However, if it isn't, please modify the ssh configuration file again on the raspberry.

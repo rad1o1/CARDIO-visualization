@@ -1,5 +1,4 @@
 Library requirements :
-- pyabf
 - matplotlib
 - 
 Setting up MC_DataTool Enivronment Variable
