@@ -1,0 +1,11 @@
+tache organgee TO losange carre = -5x+2y
+tache orangee TO triangle cells = -4y
+triangle cells to Point of interest = -5x+2y
+
+
+la losange carre est a GATE18 source 8
+referentiel DROITE HAUT X Y
+transferer au referentiel HAUT DROIT
+
+
+155 205 thresh best settings for Arthur microscope
